@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      input {
+        max-width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-app">
+      <form action="" class="form">
+        <div>
+          <label for="">Username: </label>
+          <input type="text" class="u-input" placeholder="Nhập tài khoản" />
+        </div>
+        <div>
+          <label for="">Password: </label>
+          <input type="password" class="p-input" placeholder="Nhập mật khẩu" />
+        </div>
+        <div>
+          <button class="btn-login">Đăng nhập</button>
+          <button>Xoá</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script>
+    const button = document.querySelector(".btn-login");
+    const inputUsername = document.querySelector(".u-input");
+    const inputPassword = document.querySelector(".p-input");
+
+    button.addEventListener("click", function () {
+      if (inputPassword.value === "" || inputUsername.value === "") {
+        alert("Invalid sername or password");
+      } else {
+        alert("Welcome to world of JavaScript");
+      }
+    });
+  </script>
+</html>

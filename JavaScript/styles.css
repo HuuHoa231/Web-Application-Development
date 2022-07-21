@@ -1,0 +1,45 @@
+.list-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.input {
+  width: 500px;
+  height: 45px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.25s;
+}
+.input:focus {
+  border-color: #2cccff;
+}
+.list-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  background-color: #2cccff;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.25s;
+}
+.btn:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,53 @@
+.main {
+  padding: 20px;
+}
+.heading {
+  background-color: #2cccff;
+  padding: 10px;
+}
+.heading > h3 {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+.content {
+  /* padding-left: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-info {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.content-price {
+  width: 300px;
+  background-color: #eee;
+  height: 90px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.content-price:hover {
+  color: #2cccff;
+  opacity: 0.7;
+}
+.publisher {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.publisher > span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.price > span {
+  font-size: 16px;
+}
